@@ -10,7 +10,7 @@ OBS Counter is a simple counter designed to enhance your live streaming experien
 ___
 
 # 📥 Installation (Windows Only)
-* [Download the latest release]() of OBS Counter.
+* [Download the latest release](https://github.com/Reverseeh/OBS-Counter/releases/tag/1.0.0) of OBS Counter.
 * Extract the files to a location of your choice.
 * Open "OBS Counter.exe".
 
