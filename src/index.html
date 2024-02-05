@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script defer src="scripts/titlebar.js"></script>
+    <script defer src="scripts/buttons.js"></script>
+    <title>Obs Counter</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- TITLE BAR -->
+      <div class="titlebar">
+        <header>OBS Counter</header>
+        <div class="title-buttons">
+          <button id="minimizeApp"></button>
+          <button id="closeApp"></button>
+        </div>
+      </div>
+      <!-- CONTENT -->
+      <div class="content">
+        <header id="mainNum">0</header>
+      </div>
+      <!-- BUTTONS -->
+      <div class="buttons">
+        <button id="addNum">+</button>
+        <button id="subNum">-</button>
+        <button id="resetNum">Reset</button>
+        <input type="number" id="setNum" value="0">
+        <input type="color" id="fontColor" value="#ffffff">
+        <input type="color" id="strokeColor">
+      </div>
+    </div>
+  </body>
+  <!-- SCRIPTS -->
+  <script>window.$ = window.jQuery = require('jquery');</script>
+</html>
