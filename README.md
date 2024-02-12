@@ -3,14 +3,14 @@ OBS Counter is a simple counter designed to enhance your live streaming experien
 
 # 👀 Preview
 <div style="display: flex;">
-<img src="https://media.discordapp.net/attachments/1028380395114340392/1204065695508340776/Main.png?ex=65d36090&is=65c0eb90&hm=95b37f0f4653a7a8042354f3a92f2963cb674bf8a2eb5d278615712d933a22de" alt="" height="350">
-<img src="https://cdn.discordapp.com/attachments/1028380395114340392/1204065695852134490/Main_2.png?ex=65d36090&is=65c0eb90&hm=e627c28281022d42b18d5b549d69f3f117a7a484eb5de3733b3b33bbdcaf2e16" alt="" height="350">
+<img src="https://media.discordapp.net/attachments/1028380395114340392/1206736233774972928/Main.png?ex=65dd17b2&is=65caa2b2&hm=7919de215f38f07b2f3ab15dcbbc79bea30f225e6dad7b9bf2a02c9128cce614" alt="" height="350">
+<img src="https://media.discordapp.net/attachments/1028380395114340392/1206736564760223754/Main-1.png?ex=65dd1801&is=65caa301&hm=4a2620d421c0e01a00b0f16aec1598458e58d63c8af8beb7bb235d214cb6ec38" alt="" height="350">
 </div>
 
 ___
 
 # 📥 Installation (Windows Only)
-* [Download the latest release](https://github.com/Reverseeh/OBS-Counter/releases/tag/1.0.0) of OBS Counter.
+* [Download the latest release](https://github.com/Reverseeh/OBS-Counter/releases/tag/1.1.0) of OBS Counter.
 * Extract the files to a location of your choice.
 * Open "OBS Counter.exe".
 
