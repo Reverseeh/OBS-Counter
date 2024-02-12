@@ -1,7 +1,7 @@
 {
   "name": "obscounter",
   "productName": "OBS Counter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "OBS Counter is a software to add a counter into your live.",
   "main": "src/index.js",
   "scripts": {

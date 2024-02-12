@@ -45,4 +45,4 @@ app.on('activate', () => {
   }
 });
 
-//require('electron').Menu.setApplicationMenu(null);
+require('electron').Menu.setApplicationMenu(null);

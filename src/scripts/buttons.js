@@ -1,7 +1,11 @@
-document.title = `OBS Counter (${Math.random().toString(36).slice(-5)})`;
+const code = Math.random().toString(36).slice(-5);
+document.title = `OBS Counter (${code})`;
+$("#code").html(code);
+
+var align = "center";
 
 $(document).on("click", async function (event) {
-    const id = event.target.id;
+    const id = event.target.id.replace("img-", "");
     //ADD +1 TO NUMBER
     if(id == "addNum") {
         if($("#mainNum").text() < 999) {
@@ -45,6 +49,20 @@ $(document).on("click", async function (event) {
         $("#mainNum").animate({
             "font-size": 180
         }, 40 );
+    } else if(id == "textAlign") {
+        if(align == "center") {
+            $("#mainNum").css({"text-align": "left"});
+            $("#img-textAlign").attr("src","assets/align left.svg");
+            align = "left";
+        } else if(align == "left") {
+            $("#mainNum").css({"text-align": "right"});
+            $("#img-textAlign").attr("src","assets/align right.svg");
+            align = "right";
+        } else if(align == "right") {
+            $("#mainNum").css({"text-align": "center"});
+            $("#img-textAlign").attr("src","assets/align center.svg");
+            align = "center";
+        }
     }
 });
 

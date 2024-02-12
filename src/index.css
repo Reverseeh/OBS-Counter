@@ -80,6 +80,18 @@ body {
   font-weight: 600;
 }
 
+#code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  text-align: center;
+  width: 82px;
+  height: 26px;
+  background-color: #204FC8;
+  border-radius: 13px;
+}
+
 .title-buttons {
   position: relative;
   top: -6px;
@@ -112,8 +124,8 @@ body {
   height: 280px;
   background-color: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 0px 6px;
 }
 
 .content header {
@@ -125,6 +137,8 @@ body {
   position: relative;
   -webkit-text-stroke: 7px;
   -webkit-text-stroke-color: #000000;
+  width: 100%;
+  text-align: center;
 }
 
 /* BUTTONS */
@@ -175,8 +189,24 @@ body {
 }
 
 #resetNum {
-  width: 180px;
+  width: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #204FC8;
+}
+
+#textAlign {
+  width: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #851AAB;
+}
+
+.buttons img {
+  position: relative;
+  top: 2px;
 }
 
 .buttons input[type=number] {
